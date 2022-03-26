@@ -1,7 +1,9 @@
 package com.example.demo.services;
 
-import com.example.demo.interfaces.ICalculadora;
+import org.springframework.stereotype.Service;
 
+import com.example.demo.interfaces.ICalculadora;
+@Service
 public class CalculadoraService implements ICalculadora{
 
 	@Override
